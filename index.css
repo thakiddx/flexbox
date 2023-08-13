@@ -1,0 +1,96 @@
+*{
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+#site-title{
+    display: flex;
+    font-size: 40px;
+    letter-spacing: 2px;
+    text-align: center;
+    justify-content: space-between;
+}
+body{
+    background-color: #a8b283;
+    padding: 30px;
+    min-height: calc(100vh - 16px);
+    /* take away the margin */
+    /* calculate the height minus the margin */
+}
+
+#site-navbar{
+    text-align-last: justify;
+    background-color: orangered;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+nav .btn {
+    display: inline-block;
+}
+
+.profile-pic {
+    width: 150px;
+}
+
+.about-me-paragraph {
+    display: inline-block;
+    width: calc(100% - 170px);
+}
+
+div.about {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 20px;
+}
+
+section.container {
+    display: flex;
+    flex-direction:row;
+}
+
+section.list {
+    display: flex;
+    flex-direction:row;
+    align-items: flex-start;
+}
+
+div.orders {
+    padding-left: 20px;
+}
+
+a {
+    color: red;
+}
+
+p.footer {
+    color: orangered;
+}
+
+section.img {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+div.img {
+    padding: 15px;
+    border: 2px solid orangered;
+    align-items: center;
+    color: orangered;
+    margin: 10px;
+    justify-content: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    border-style: solid white;
+    padding: 14px;
+    margin: 196px;
+    margin-top: auto;
+    margin-bottom: auto;
+    align-items: center;
+}
